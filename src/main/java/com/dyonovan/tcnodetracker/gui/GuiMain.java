@@ -229,28 +229,28 @@ public class GuiMain extends GuiScreen {
 
         String s1 = "Click aspect to get node list";
         this.fontRendererObj.drawString(s1, this.width / 2 - this.fontRendererObj.getStringWidth(s1) / 2, 40, Constants.WHITE);
-        s1 = "(N)ormal";
+        s1 = I18n.format("Gui.Type.Normal");
         this.fontRendererObj.drawString(s1, start, 1, Constants.WHITE);
-        s1 = "(U)nstable";
+        s1 = I18n.format("Gui.Type.Unstable");
         this.fontRendererObj.drawString(s1, start, 9, Constants.WHITE);
-        s1 = "(D)ark";
+        s1 = I18n.format("Gui.Type.Dark");
         this.fontRendererObj.drawString(s1, start, 17, Constants.WHITE);
-        s1 = "(T)ainted";
+        s1 = I18n.format("Gui.Type.Tainted");
         this.fontRendererObj.drawString(s1, start, 25, Constants.WHITE);
-        s1 = "(H)ungry";
+        s1 = I18n.format("Gui.Type.Hungry");
         this.fontRendererObj.drawString(s1, start, 33, Constants.WHITE);
-        s1 = "(P)ure";
+        s1 = I18n.format("Gui.Type.Pure");
         this.fontRendererObj.drawString(s1, start, 41, Constants.WHITE);
 
         drawRect(start, 50, start + display, 52, -9408400);
         drawRect(start, 64, start + display, 66, -9408400);
 
-        this.fontRendererObj.drawString("Dist", start + 2, 55, Constants.WHITE);
+        this.fontRendererObj.drawString(I18n.format("Gui.Dist"), start + 2, 55, Constants.WHITE);
         this.fontRendererObj.drawString("X", start + 50, 55, Constants.WHITE);
         this.fontRendererObj.drawString("Y", start + 80, 55, Constants.WHITE);
         this.fontRendererObj.drawString("Z", start + 110, 55, Constants.WHITE);
-        this.fontRendererObj.drawString("Type", start + 140, 55, Constants.WHITE);
-        s1 = "Aer  Aqua  Ignis  Ordo  Perd  Terra";
+        this.fontRendererObj.drawString(I18n.format("Gui.Type"), start + 140, 55, Constants.WHITE);
+        s1 = I18n.format("Gui.Elements");
         this.fontRendererObj.drawString(s1, start + 188, 55, Constants.WHITE);
 
         for (AspectLoc a : aspectList.subList(low, high)) {
