@@ -227,7 +227,7 @@ public class GuiMain extends GuiScreen {
 
         this.fontRendererObj.drawString(dimName, start + 20 +(80 - this.fontRendererObj.getStringWidth(dimName)) / 2, 214, Constants.WHITE);
 
-        String s1 = "Click aspect to get node list";
+        String s1 = I18n.format("Gui.Notice");
         this.fontRendererObj.drawString(s1, this.width / 2 - this.fontRendererObj.getStringWidth(s1) / 2, 40, Constants.WHITE);
         s1 = I18n.format("Gui.Type.Normal");
         this.fontRendererObj.drawString(s1, start, 1, Constants.WHITE);
