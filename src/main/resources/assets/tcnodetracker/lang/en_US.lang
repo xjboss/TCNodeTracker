@@ -1,2 +1,16 @@
 key.cat.tcnodetracker=TC Node Tracker
 key.aspectMenu=Node List
+Gui.Blocks=Blocks
+Gui.Button.Mark=Mark
+Gui.Button.Del=Del
+Gui.Button.ClearArrow=Clear Arrow
+Gui.Notice=Click aspect to get node list
+Gui.Type.Normal=(N)ormal
+Gui.Type.Unstable=(U)nstable
+Gui.Type.Dark=(D)ark
+Gui.Type.Tainted=(T)ainted
+Gui.Type.Hungry=(H)ungry
+Gui.Type.Pure=(P)ure
+Gui.Dist=Dist
+Gui.Type=Type
+Gui.Elements=Aer Aqua Ignis Ordo Perd Terra;
